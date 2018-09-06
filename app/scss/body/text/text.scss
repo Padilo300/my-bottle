@@ -1,0 +1,36 @@
+.lineTitleWrap{
+    overflow: hidden;
+    .lineTitle{
+        text-align: center;
+        width: max-content;
+        margin: 15px auto;
+        font-size: 1.5em;
+        color: $mainBlue ;
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            width: 1000%;
+            position: absolute;
+            border-bottom: 2px solid $mainBlue ;
+            left: -1010%;
+            top: 17px;
+            z-index: 1;
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 1000%;
+            position: absolute;
+            border-bottom: 2px solid $mainBlue ;
+            right: -1010%;
+            top: 17px;
+            z-index: 1;
+        }
+    }
+}
+.alarmBlueTex{
+    font-size: 1.4em;
+    color: #8dd8f8;
+    font-weight: 500;
+}

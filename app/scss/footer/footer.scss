@@ -1,0 +1,92 @@
+footer.footer{
+    h6{
+        text-transform: uppercase;
+        font-size: 1.07em;
+        font-weight: 500;
+        @media screen and (max-width: 991px) {
+            text-align: center;
+            text-align: left;
+            padding: 0 0 0 50px;
+        }
+        @media screen and (max-width: 767px) {
+            padding: 10% 0 0 30%;
+        }
+    }
+    .footer_info{
+        
+        ul{
+            padding: 0 0 0 10px;
+            @media screen and (max-width: 991px) {
+                width: max-content;
+                margin: 0 auto;
+
+            }
+            li{
+                transition: all 0.3s;
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 3px;
+                    height: 3px;
+                    background-color: $mainBlue;
+                    left: -4%;
+                    top: 45%;
+                    border-radius: 100%;
+                    transition: all 0.3s;
+                }
+                a{
+                    color: #1e1e1e;
+                    font-size: 1em;
+                    font-weight: 300;
+                    transition: all 0.4s;
+                }
+                &:hover{
+                    a{
+                        color: $mainBlue;
+                    }
+                    &::before{
+                        width: 5px;
+                        height: 5px;
+                        box-shadow: 0 0 5px 0 $mainBlue;
+
+                    }
+                }
+            }
+        }
+    }
+    .footer_Subscription{
+        height: 100%;
+        position: relative;
+        min-height: 199px;
+        h6{
+            @media screen and (max-width: 991px) {
+                text-align: center;
+                padding: 0;
+            }
+            @media screen and (max-width: 776px) {
+                text-align: center;
+                padding: 20px 0 0 0;
+            }
+        }
+        p{
+            @media screen and (max-width: 991px) {
+                text-align: center;
+            }
+            color: $lightGray;
+            mark{
+                color: #f20909;
+                background: none;
+            }
+        }
+        img.visaCart{
+            position: absolute;
+            bottom: 0;
+            @media screen and (max-width: 991px){
+                left: calc(50% - 74px);
+            }
+        }
+       
+    }
+}

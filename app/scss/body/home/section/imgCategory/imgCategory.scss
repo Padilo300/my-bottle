@@ -1,0 +1,25 @@
+.imgCategory{
+    .imgCategoryIteam{
+        display: block;
+        position: relative;
+        transition: all 0.4s;
+        margin: 15px 0;
+        &:hover{
+            box-shadow: 0 0 30px #929292;
+        }
+        img{
+            max-width: 100%;
+        }
+        span{
+            position: absolute;
+            display: block;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+            background: #ffffffcf;
+            height: 50px;
+            color: #000;
+            line-height: 50px;
+        }
+    }
+}

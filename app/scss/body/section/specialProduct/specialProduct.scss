@@ -1,0 +1,26 @@
+.specialProduct{
+    .specialProductItem{
+       
+        &:hover{
+            .specialProductWrapImg{
+                .shake-slow{
+                    transform: scale(1.03);
+                }
+            }   
+            .HoverRotate{
+                transition: all 0.9s;
+                transform: rotate(-110deg);
+            }
+        }
+        .specialProductWrapImg{
+            display: flex;
+            height: 300px;
+            img{
+                max-width: 100%;
+                margin: 0 auto;
+                transition: all 0.3s;
+            }
+        }
+        
+    }
+}

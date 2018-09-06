@@ -1,0 +1,99 @@
+.PadiloNav{
+
+    #nav{
+        margin: 0;
+
+        >li{
+            padding: 10px 20px;
+            &:hover{
+                background-color: $UltralightGray;
+                >a{
+                    color: $mainBlue;
+                }
+           
+            }
+            &.triigerSubMenu{
+                @media screen and (max-width: 767px){
+                    .fa{
+                        display: none;
+                    }
+                }
+                @media screen and (min-width: 768px) {
+                    &:hover{
+                        .subMenu{
+                            opacity: 1;
+                            width: 100%;
+                            height: max-content;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+
+    // тут подменю
+    .subMenu{
+        position: absolute;
+        width:100%;
+        height: 0px;
+        overflow: hidden;
+        left: 0;
+        top: 40px;
+        background: $UltralightGray;
+        z-index: 100;
+        opacity: 0;
+        transition:  all 0.4s ;
+        ul{
+            display: flex;
+            @media screen and (max-width: 1199px) {
+                padding: 0;
+            }
+        }
+        li{
+            margin: 0;
+        }
+        .subCategory{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-right: 1px solid $lightGrayBorder;
+            padding: 0 40px;
+            @media screen and (max-width: 1199px) {
+                padding: 0 20px;
+            }
+            li{
+                margin: 0;
+                padding: 3px !important;
+                &:first-child{
+                    a{
+                        font-size: 1.2em;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        margin: 0 0 15px 0;
+                    }
+                }
+
+                a{
+                    font-weight: 300;
+                    font-size: 1em;
+                }
+                &:last-child{
+                    a{
+                        color: $mainBlue;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .allProduct{
+            display: block;
+            width: 100%;
+            background: #000;
+            text-align: center;
+            color: #fff;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            padding: 5px 0;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.headSale{
+    background-color: $mainBlue;
+  
+    .headSale_textWrap{
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 1.7em;
+      color: #fff;
+      text-transform: uppercase;
+      flex-wrap: wrap;
+      @media screen and (max-width: 767px) {
+        font-size: 0.8em;
+      }
+      span{
+        @media screen and (max-width: 767px) {
+          text-align: center;
+          
+        }
+      }
+    }
+}

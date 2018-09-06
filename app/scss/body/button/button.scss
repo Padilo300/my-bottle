@@ -1,0 +1,55 @@
+.BTNdark{
+    width: 165px;
+    height: 47px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $darkButton ;
+    border: none;
+    position: relative;
+    transition: all 0.4s;
+    cursor: pointer;
+    @media screen and (max-width: 500px) {
+        width: 135px;
+        height: 37px;
+        
+    }
+    @media screen and (max-width: 350px) {
+        width: 100px;
+        height: 25px;
+    }
+    &:hover{
+        border-radius: 4px;
+        box-shadow: 0 0 20px $mainBlue;
+        background-color: $mainBlue;
+
+    }
+    i.fa{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 1.2em;
+        @media screen and (max-width: 500px) {
+            top: 10px;
+        }
+        @media screen and (max-width: 350px) {
+            display: none;
+        }
+    }
+}
+
+.blueButton{
+    display: block;
+    width: 165px;
+    height: 47px;
+    background-color: $mainBlue;
+    text-align: center;
+    color: #fff;
+    line-height: 47px;
+    margin: 20px auto 0 auto;
+    transition: all 0.5s;
+    &:hover{
+        color: #fff;
+        box-shadow: 0 0 30px $mainBlue;
+    }
+}

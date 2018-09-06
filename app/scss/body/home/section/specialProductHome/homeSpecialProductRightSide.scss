@@ -1,0 +1,32 @@
+.homeSpecialProductRightSide{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    @media screen and (max-width: 991px) {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 0;
+    }
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+    a{
+        display: block;
+        margin: 10px 0 0 0;
+        transition: all 0.3s;
+        @media screen and (max-width: 991px) {
+            width: max-content;
+            margin: 10px auto 0 auto;
+        }
+        @media screen and (max-width: 767px) {
+            margin: 10px auto
+        }
+        &:hover{
+            transform: scale(1.03);
+            box-shadow: 0 0 30px $mainBlue;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.subscription{
+    height: 55px;
+    background-color: $mainBlue;
+    margin: 80px auto 20px auto;
+    @media screen and (max-width: 991px) {
+        height: max-content;
+    }
+    .subscription_Text{
+        display: flex;
+        justify-content: space-between;
+        p{
+            color: #fff;
+            position: relative;
+            top: -4px;
+            font-weight: 700;
+            font-size: 1.2em;
+            white-space: nowrap;
+            @media screen and (max-width: 991px) {
+               font-size: 1em;
+               text-align: center;
+               width: 100%;
+               margin: 0;
+            }
+            mark{
+                background: none;
+                color: $lightBlue;
+                font-size: 0.9em;
+                @media screen and (max-width: 767px) {
+                    height: 20px;
+                    display: block;
+                    position: relative;
+                    top: -16px;
+                }
+                @media screen and (max-width: 375px) {
+                    height: auto;
+                    white-space: normal;
+                }
+            }
+            img{
+                max-width: 100%;
+                position: relative;
+                top: -2px;
+            }
+        }
+    }
+    
+}

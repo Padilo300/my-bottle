@@ -1,0 +1,70 @@
+.myBord{
+    display: flex;
+    justify-content: space-evenly;
+    @media screen and (max-width: 767px) {
+        margin: 20px auto 0 auto;
+    }
+    &>a{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        &:hover{
+            .fa{
+                text-shadow: 0 0 2px $mainBlue;
+                color: $mainBlue;
+            }
+        }
+        .fa{
+            font-size: 3em;
+            color: $lightGray;
+            transition: all 0.4s;
+        }
+        
+    }
+    .myRoom{
+        position: relative;
+        &::before{
+            content: "";
+            display: block;
+            width: 150px;
+            position: absolute;
+            border-bottom: 1px solid $lightGrayBorder;
+            transform: rotate(90deg);
+            left: -75px;
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 150px;
+            position: absolute;
+            border-bottom: 1px solid $lightGrayBorder;
+            transform: rotate(90deg);
+            right: -75px;
+
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+        }
+    }
+    .cart{
+        position: relative;
+        &::after{
+            content: "";
+            display: block;
+            width: 150px;
+            position: absolute;
+            border-bottom: 1px solid $lightGrayBorder;
+            transform: rotate(90deg);
+            right: -75px;
+            
+            @media screen and (max-width: 1199px) {
+                display: none;
+            }
+        }
+    }
+}
