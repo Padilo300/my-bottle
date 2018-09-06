@@ -53,3 +53,16 @@
         box-shadow: 0 0 30px $mainBlue;
     }
 }
+
+.ActiveBTNtoogleFrontImg{
+    width: 123px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: $mainBlue;
+    border: none;
+    color: #fff;
+}
+.LightBTNtoogleFrontImg{
+    @extend .ActiveBTNtoogleFrontImg;
+    opacity: 0.5;
+}

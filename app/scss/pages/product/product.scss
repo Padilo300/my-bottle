@@ -1,0 +1,52 @@
+.productWrapImg{
+    padding-top: 30px;
+    .ProductBtnWrap{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        height: 85px;
+        justify-content: space-between;
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+   
+}
+.productInfoBar{
+    background: #fcfcfc;
+    max-width: 470px;
+    margin: 0 0 0 auto;
+    padding: 25px 50px 50px 50px;
+    .productName{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2em;
+    }
+    hr{
+        color: $lightGray;
+    }
+    p{
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+    .chengeColor{
+        display: flex;
+        padding: 0;
+        li{
+            margin: 0 21px 0 0;
+            .color{
+                display: block;
+                width: 29px;
+                height: 29px;
+                background: #f00;
+                border-radius: 10px;
+            }
+        }
+    }
+    .productPrice{
+        color: $mainBlue;
+        font-weight: 600;
+        font-size: 1.4em
+    }
+}
