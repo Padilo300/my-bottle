@@ -48,10 +48,20 @@
     line-height: 47px;
     margin: 20px auto 0 auto;
     transition: all 0.5s;
+    border: none;
     &:hover{
         color: #fff;
         box-shadow: 0 0 30px $mainBlue;
     }
+}
+.GrayButton{
+    @extend .blueButton;
+    
+    background-color: $gray;
+    &:hover{
+        box-shadow: $gray;
+    }
+    
 }
 
 .ActiveBTNtoogleFrontImg{

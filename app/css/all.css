@@ -1913,304 +1913,304 @@ a.text-dark:hover, a.text-dark:focus {
 
 @-webkit-keyframes shake-slow {
   2% {
-    -webkit-transform: translate(-1px, 10px) rotate(3.5deg);
-            transform: translate(-1px, 10px) rotate(3.5deg); }
+    -webkit-transform: translate(-6px, -6px) rotate(-2.5deg);
+            transform: translate(-6px, -6px) rotate(-2.5deg); }
   4% {
-    -webkit-transform: translate(9px, -1px) rotate(3.5deg);
-            transform: translate(9px, -1px) rotate(3.5deg); }
+    -webkit-transform: translate(0px, 3px) rotate(-1.5deg);
+            transform: translate(0px, 3px) rotate(-1.5deg); }
   6% {
-    -webkit-transform: translate(-9px, 3px) rotate(-1.5deg);
-            transform: translate(-9px, 3px) rotate(-1.5deg); }
+    -webkit-transform: translate(-7px, -5px) rotate(-2.5deg);
+            transform: translate(-7px, -5px) rotate(-2.5deg); }
   8% {
+    -webkit-transform: translate(8px, 5px) rotate(-2.5deg);
+            transform: translate(8px, 5px) rotate(-2.5deg); }
+  10% {
+    -webkit-transform: translate(-8px, -6px) rotate(3.5deg);
+            transform: translate(-8px, -6px) rotate(3.5deg); }
+  12% {
+    -webkit-transform: translate(-1px, 1px) rotate(-2.5deg);
+            transform: translate(-1px, 1px) rotate(-2.5deg); }
+  14% {
+    -webkit-transform: translate(0px, 1px) rotate(1.5deg);
+            transform: translate(0px, 1px) rotate(1.5deg); }
+  16% {
+    -webkit-transform: translate(-8px, -2px) rotate(1.5deg);
+            transform: translate(-8px, -2px) rotate(1.5deg); }
+  18% {
+    -webkit-transform: translate(-7px, -2px) rotate(-0.5deg);
+            transform: translate(-7px, -2px) rotate(-0.5deg); }
+  20% {
+    -webkit-transform: translate(2px, -8px) rotate(3.5deg);
+            transform: translate(2px, -8px) rotate(3.5deg); }
+  22% {
+    -webkit-transform: translate(9px, 0px) rotate(0.5deg);
+            transform: translate(9px, 0px) rotate(0.5deg); }
+  24% {
+    -webkit-transform: translate(8px, 0px) rotate(-1.5deg);
+            transform: translate(8px, 0px) rotate(-1.5deg); }
+  26% {
+    -webkit-transform: translate(-9px, 6px) rotate(-1.5deg);
+            transform: translate(-9px, 6px) rotate(-1.5deg); }
+  28% {
+    -webkit-transform: translate(0px, -1px) rotate(-1.5deg);
+            transform: translate(0px, -1px) rotate(-1.5deg); }
+  30% {
+    -webkit-transform: translate(3px, -8px) rotate(0.5deg);
+            transform: translate(3px, -8px) rotate(0.5deg); }
+  32% {
+    -webkit-transform: translate(3px, -9px) rotate(-0.5deg);
+            transform: translate(3px, -9px) rotate(-0.5deg); }
+  34% {
+    -webkit-transform: translate(2px, 5px) rotate(-1.5deg);
+            transform: translate(2px, 5px) rotate(-1.5deg); }
+  36% {
+    -webkit-transform: translate(5px, 9px) rotate(-2.5deg);
+            transform: translate(5px, 9px) rotate(-2.5deg); }
+  38% {
+    -webkit-transform: translate(8px, 3px) rotate(3.5deg);
+            transform: translate(8px, 3px) rotate(3.5deg); }
+  40% {
+    -webkit-transform: translate(-2px, 3px) rotate(1.5deg);
+            transform: translate(-2px, 3px) rotate(1.5deg); }
+  42% {
+    -webkit-transform: translate(-2px, -9px) rotate(2.5deg);
+            transform: translate(-2px, -9px) rotate(2.5deg); }
+  44% {
+    -webkit-transform: translate(9px, 3px) rotate(-1.5deg);
+            transform: translate(9px, 3px) rotate(-1.5deg); }
+  46% {
+    -webkit-transform: translate(-9px, -4px) rotate(-1.5deg);
+            transform: translate(-9px, -4px) rotate(-1.5deg); }
+  48% {
+    -webkit-transform: translate(-6px, 4px) rotate(3.5deg);
+            transform: translate(-6px, 4px) rotate(3.5deg); }
+  50% {
+    -webkit-transform: translate(-6px, 9px) rotate(-1.5deg);
+            transform: translate(-6px, 9px) rotate(-1.5deg); }
+  52% {
+    -webkit-transform: translate(-7px, 5px) rotate(3.5deg);
+            transform: translate(-7px, 5px) rotate(3.5deg); }
+  54% {
+    -webkit-transform: translate(9px, -6px) rotate(2.5deg);
+            transform: translate(9px, -6px) rotate(2.5deg); }
+  56% {
+    -webkit-transform: translate(-3px, -5px) rotate(0.5deg);
+            transform: translate(-3px, -5px) rotate(0.5deg); }
+  58% {
+    -webkit-transform: translate(-8px, 2px) rotate(-1.5deg);
+            transform: translate(-8px, 2px) rotate(-1.5deg); }
+  60% {
+    -webkit-transform: translate(3px, -5px) rotate(0.5deg);
+            transform: translate(3px, -5px) rotate(0.5deg); }
+  62% {
+    -webkit-transform: translate(-9px, -6px) rotate(-1.5deg);
+            transform: translate(-9px, -6px) rotate(-1.5deg); }
+  64% {
+    -webkit-transform: translate(-3px, -2px) rotate(2.5deg);
+            transform: translate(-3px, -2px) rotate(2.5deg); }
+  66% {
+    -webkit-transform: translate(1px, -2px) rotate(1.5deg);
+            transform: translate(1px, -2px) rotate(1.5deg); }
+  68% {
+    -webkit-transform: translate(-2px, 8px) rotate(3.5deg);
+            transform: translate(-2px, 8px) rotate(3.5deg); }
+  70% {
+    -webkit-transform: translate(1px, -4px) rotate(1.5deg);
+            transform: translate(1px, -4px) rotate(1.5deg); }
+  72% {
+    -webkit-transform: translate(8px, 2px) rotate(-1.5deg);
+            transform: translate(8px, 2px) rotate(-1.5deg); }
+  74% {
+    -webkit-transform: translate(9px, -7px) rotate(-1.5deg);
+            transform: translate(9px, -7px) rotate(-1.5deg); }
+  76% {
+    -webkit-transform: translate(0px, 0px) rotate(-0.5deg);
+            transform: translate(0px, 0px) rotate(-0.5deg); }
+  78% {
+    -webkit-transform: translate(-8px, -3px) rotate(-0.5deg);
+            transform: translate(-8px, -3px) rotate(-0.5deg); }
+  80% {
+    -webkit-transform: translate(9px, -3px) rotate(-0.5deg);
+            transform: translate(9px, -3px) rotate(-0.5deg); }
+  82% {
+    -webkit-transform: translate(5px, 1px) rotate(2.5deg);
+            transform: translate(5px, 1px) rotate(2.5deg); }
+  84% {
     -webkit-transform: translate(1px, -3px) rotate(-0.5deg);
             transform: translate(1px, -3px) rotate(-0.5deg); }
-  10% {
-    -webkit-transform: translate(10px, -8px) rotate(-1.5deg);
-            transform: translate(10px, -8px) rotate(-1.5deg); }
-  12% {
-    -webkit-transform: translate(8px, 1px) rotate(3.5deg);
-            transform: translate(8px, 1px) rotate(3.5deg); }
-  14% {
-    -webkit-transform: translate(-1px, 6px) rotate(1.5deg);
-            transform: translate(-1px, 6px) rotate(1.5deg); }
-  16% {
-    -webkit-transform: translate(9px, 6px) rotate(2.5deg);
-            transform: translate(9px, 6px) rotate(2.5deg); }
-  18% {
-    -webkit-transform: translate(0px, -1px) rotate(2.5deg);
-            transform: translate(0px, -1px) rotate(2.5deg); }
-  20% {
-    -webkit-transform: translate(-7px, 0px) rotate(1.5deg);
-            transform: translate(-7px, 0px) rotate(1.5deg); }
-  22% {
-    -webkit-transform: translate(-3px, -3px) rotate(1.5deg);
-            transform: translate(-3px, -3px) rotate(1.5deg); }
-  24% {
-    -webkit-transform: translate(-6px, -3px) rotate(2.5deg);
-            transform: translate(-6px, -3px) rotate(2.5deg); }
-  26% {
-    -webkit-transform: translate(-8px, 4px) rotate(-0.5deg);
-            transform: translate(-8px, 4px) rotate(-0.5deg); }
-  28% {
-    -webkit-transform: translate(-3px, 0px) rotate(3.5deg);
-            transform: translate(-3px, 0px) rotate(3.5deg); }
-  30% {
-    -webkit-transform: translate(5px, -7px) rotate(1.5deg);
-            transform: translate(5px, -7px) rotate(1.5deg); }
-  32% {
-    -webkit-transform: translate(-6px, 8px) rotate(-2.5deg);
-            transform: translate(-6px, 8px) rotate(-2.5deg); }
-  34% {
-    -webkit-transform: translate(2px, -3px) rotate(-2.5deg);
-            transform: translate(2px, -3px) rotate(-2.5deg); }
-  36% {
-    -webkit-transform: translate(9px, 5px) rotate(0.5deg);
-            transform: translate(9px, 5px) rotate(0.5deg); }
-  38% {
-    -webkit-transform: translate(-3px, 0px) rotate(3.5deg);
-            transform: translate(-3px, 0px) rotate(3.5deg); }
-  40% {
-    -webkit-transform: translate(9px, 8px) rotate(-0.5deg);
-            transform: translate(9px, 8px) rotate(-0.5deg); }
-  42% {
-    -webkit-transform: translate(-8px, -1px) rotate(0.5deg);
-            transform: translate(-8px, -1px) rotate(0.5deg); }
-  44% {
-    -webkit-transform: translate(-1px, 2px) rotate(-2.5deg);
-            transform: translate(-1px, 2px) rotate(-2.5deg); }
-  46% {
-    -webkit-transform: translate(2px, -4px) rotate(-1.5deg);
-            transform: translate(2px, -4px) rotate(-1.5deg); }
-  48% {
-    -webkit-transform: translate(4px, -5px) rotate(-1.5deg);
-            transform: translate(4px, -5px) rotate(-1.5deg); }
-  50% {
-    -webkit-transform: translate(0px, -7px) rotate(-1.5deg);
-            transform: translate(0px, -7px) rotate(-1.5deg); }
-  52% {
-    -webkit-transform: translate(-5px, 0px) rotate(-2.5deg);
-            transform: translate(-5px, 0px) rotate(-2.5deg); }
-  54% {
-    -webkit-transform: translate(-9px, -4px) rotate(-0.5deg);
-            transform: translate(-9px, -4px) rotate(-0.5deg); }
-  56% {
-    -webkit-transform: translate(8px, 6px) rotate(-2.5deg);
-            transform: translate(8px, 6px) rotate(-2.5deg); }
-  58% {
-    -webkit-transform: translate(-8px, 6px) rotate(-0.5deg);
-            transform: translate(-8px, 6px) rotate(-0.5deg); }
-  60% {
-    -webkit-transform: translate(10px, 7px) rotate(3.5deg);
-            transform: translate(10px, 7px) rotate(3.5deg); }
-  62% {
-    -webkit-transform: translate(8px, -2px) rotate(-2.5deg);
-            transform: translate(8px, -2px) rotate(-2.5deg); }
-  64% {
-    -webkit-transform: translate(-9px, 10px) rotate(3.5deg);
-            transform: translate(-9px, 10px) rotate(3.5deg); }
-  66% {
-    -webkit-transform: translate(3px, 9px) rotate(-2.5deg);
-            transform: translate(3px, 9px) rotate(-2.5deg); }
-  68% {
-    -webkit-transform: translate(3px, -8px) rotate(2.5deg);
-            transform: translate(3px, -8px) rotate(2.5deg); }
-  70% {
-    -webkit-transform: translate(6px, -8px) rotate(2.5deg);
-            transform: translate(6px, -8px) rotate(2.5deg); }
-  72% {
-    -webkit-transform: translate(9px, 0px) rotate(-2.5deg);
-            transform: translate(9px, 0px) rotate(-2.5deg); }
-  74% {
-    -webkit-transform: translate(-8px, -8px) rotate(-0.5deg);
-            transform: translate(-8px, -8px) rotate(-0.5deg); }
-  76% {
-    -webkit-transform: translate(-1px, -3px) rotate(3.5deg);
-            transform: translate(-1px, -3px) rotate(3.5deg); }
-  78% {
-    -webkit-transform: translate(3px, -9px) rotate(3.5deg);
-            transform: translate(3px, -9px) rotate(3.5deg); }
-  80% {
-    -webkit-transform: translate(8px, 4px) rotate(-1.5deg);
-            transform: translate(8px, 4px) rotate(-1.5deg); }
-  82% {
-    -webkit-transform: translate(6px, -5px) rotate(-2.5deg);
-            transform: translate(6px, -5px) rotate(-2.5deg); }
-  84% {
-    -webkit-transform: translate(-3px, -3px) rotate(2.5deg);
-            transform: translate(-3px, -3px) rotate(2.5deg); }
   86% {
-    -webkit-transform: translate(0px, -7px) rotate(0.5deg);
-            transform: translate(0px, -7px) rotate(0.5deg); }
+    -webkit-transform: translate(-6px, -7px) rotate(3.5deg);
+            transform: translate(-6px, -7px) rotate(3.5deg); }
   88% {
-    -webkit-transform: translate(-9px, -6px) rotate(0.5deg);
-            transform: translate(-9px, -6px) rotate(0.5deg); }
+    -webkit-transform: translate(3px, -9px) rotate(-1.5deg);
+            transform: translate(3px, -9px) rotate(-1.5deg); }
   90% {
-    -webkit-transform: translate(-8px, 1px) rotate(3.5deg);
-            transform: translate(-8px, 1px) rotate(3.5deg); }
+    -webkit-transform: translate(-6px, 5px) rotate(-0.5deg);
+            transform: translate(-6px, 5px) rotate(-0.5deg); }
   92% {
-    -webkit-transform: translate(4px, -5px) rotate(3.5deg);
-            transform: translate(4px, -5px) rotate(3.5deg); }
+    -webkit-transform: translate(4px, 10px) rotate(-1.5deg);
+            transform: translate(4px, 10px) rotate(-1.5deg); }
   94% {
-    -webkit-transform: translate(4px, 9px) rotate(1.5deg);
-            transform: translate(4px, 9px) rotate(1.5deg); }
+    -webkit-transform: translate(-9px, -6px) rotate(3.5deg);
+            transform: translate(-9px, -6px) rotate(3.5deg); }
   96% {
-    -webkit-transform: translate(3px, 4px) rotate(-2.5deg);
-            transform: translate(3px, 4px) rotate(-2.5deg); }
+    -webkit-transform: translate(-5px, -4px) rotate(2.5deg);
+            transform: translate(-5px, -4px) rotate(2.5deg); }
   98% {
-    -webkit-transform: translate(5px, 2px) rotate(2.5deg);
-            transform: translate(5px, 2px) rotate(2.5deg); }
+    -webkit-transform: translate(6px, -6px) rotate(0.5deg);
+            transform: translate(6px, -6px) rotate(0.5deg); }
   0%, 100% {
     -webkit-transform: translate(0, 0) rotate(0);
             transform: translate(0, 0) rotate(0); } }
 
 @keyframes shake-slow {
   2% {
-    -webkit-transform: translate(-1px, 10px) rotate(3.5deg);
-            transform: translate(-1px, 10px) rotate(3.5deg); }
+    -webkit-transform: translate(-6px, -6px) rotate(-2.5deg);
+            transform: translate(-6px, -6px) rotate(-2.5deg); }
   4% {
-    -webkit-transform: translate(9px, -1px) rotate(3.5deg);
-            transform: translate(9px, -1px) rotate(3.5deg); }
+    -webkit-transform: translate(0px, 3px) rotate(-1.5deg);
+            transform: translate(0px, 3px) rotate(-1.5deg); }
   6% {
-    -webkit-transform: translate(-9px, 3px) rotate(-1.5deg);
-            transform: translate(-9px, 3px) rotate(-1.5deg); }
+    -webkit-transform: translate(-7px, -5px) rotate(-2.5deg);
+            transform: translate(-7px, -5px) rotate(-2.5deg); }
   8% {
+    -webkit-transform: translate(8px, 5px) rotate(-2.5deg);
+            transform: translate(8px, 5px) rotate(-2.5deg); }
+  10% {
+    -webkit-transform: translate(-8px, -6px) rotate(3.5deg);
+            transform: translate(-8px, -6px) rotate(3.5deg); }
+  12% {
+    -webkit-transform: translate(-1px, 1px) rotate(-2.5deg);
+            transform: translate(-1px, 1px) rotate(-2.5deg); }
+  14% {
+    -webkit-transform: translate(0px, 1px) rotate(1.5deg);
+            transform: translate(0px, 1px) rotate(1.5deg); }
+  16% {
+    -webkit-transform: translate(-8px, -2px) rotate(1.5deg);
+            transform: translate(-8px, -2px) rotate(1.5deg); }
+  18% {
+    -webkit-transform: translate(-7px, -2px) rotate(-0.5deg);
+            transform: translate(-7px, -2px) rotate(-0.5deg); }
+  20% {
+    -webkit-transform: translate(2px, -8px) rotate(3.5deg);
+            transform: translate(2px, -8px) rotate(3.5deg); }
+  22% {
+    -webkit-transform: translate(9px, 0px) rotate(0.5deg);
+            transform: translate(9px, 0px) rotate(0.5deg); }
+  24% {
+    -webkit-transform: translate(8px, 0px) rotate(-1.5deg);
+            transform: translate(8px, 0px) rotate(-1.5deg); }
+  26% {
+    -webkit-transform: translate(-9px, 6px) rotate(-1.5deg);
+            transform: translate(-9px, 6px) rotate(-1.5deg); }
+  28% {
+    -webkit-transform: translate(0px, -1px) rotate(-1.5deg);
+            transform: translate(0px, -1px) rotate(-1.5deg); }
+  30% {
+    -webkit-transform: translate(3px, -8px) rotate(0.5deg);
+            transform: translate(3px, -8px) rotate(0.5deg); }
+  32% {
+    -webkit-transform: translate(3px, -9px) rotate(-0.5deg);
+            transform: translate(3px, -9px) rotate(-0.5deg); }
+  34% {
+    -webkit-transform: translate(2px, 5px) rotate(-1.5deg);
+            transform: translate(2px, 5px) rotate(-1.5deg); }
+  36% {
+    -webkit-transform: translate(5px, 9px) rotate(-2.5deg);
+            transform: translate(5px, 9px) rotate(-2.5deg); }
+  38% {
+    -webkit-transform: translate(8px, 3px) rotate(3.5deg);
+            transform: translate(8px, 3px) rotate(3.5deg); }
+  40% {
+    -webkit-transform: translate(-2px, 3px) rotate(1.5deg);
+            transform: translate(-2px, 3px) rotate(1.5deg); }
+  42% {
+    -webkit-transform: translate(-2px, -9px) rotate(2.5deg);
+            transform: translate(-2px, -9px) rotate(2.5deg); }
+  44% {
+    -webkit-transform: translate(9px, 3px) rotate(-1.5deg);
+            transform: translate(9px, 3px) rotate(-1.5deg); }
+  46% {
+    -webkit-transform: translate(-9px, -4px) rotate(-1.5deg);
+            transform: translate(-9px, -4px) rotate(-1.5deg); }
+  48% {
+    -webkit-transform: translate(-6px, 4px) rotate(3.5deg);
+            transform: translate(-6px, 4px) rotate(3.5deg); }
+  50% {
+    -webkit-transform: translate(-6px, 9px) rotate(-1.5deg);
+            transform: translate(-6px, 9px) rotate(-1.5deg); }
+  52% {
+    -webkit-transform: translate(-7px, 5px) rotate(3.5deg);
+            transform: translate(-7px, 5px) rotate(3.5deg); }
+  54% {
+    -webkit-transform: translate(9px, -6px) rotate(2.5deg);
+            transform: translate(9px, -6px) rotate(2.5deg); }
+  56% {
+    -webkit-transform: translate(-3px, -5px) rotate(0.5deg);
+            transform: translate(-3px, -5px) rotate(0.5deg); }
+  58% {
+    -webkit-transform: translate(-8px, 2px) rotate(-1.5deg);
+            transform: translate(-8px, 2px) rotate(-1.5deg); }
+  60% {
+    -webkit-transform: translate(3px, -5px) rotate(0.5deg);
+            transform: translate(3px, -5px) rotate(0.5deg); }
+  62% {
+    -webkit-transform: translate(-9px, -6px) rotate(-1.5deg);
+            transform: translate(-9px, -6px) rotate(-1.5deg); }
+  64% {
+    -webkit-transform: translate(-3px, -2px) rotate(2.5deg);
+            transform: translate(-3px, -2px) rotate(2.5deg); }
+  66% {
+    -webkit-transform: translate(1px, -2px) rotate(1.5deg);
+            transform: translate(1px, -2px) rotate(1.5deg); }
+  68% {
+    -webkit-transform: translate(-2px, 8px) rotate(3.5deg);
+            transform: translate(-2px, 8px) rotate(3.5deg); }
+  70% {
+    -webkit-transform: translate(1px, -4px) rotate(1.5deg);
+            transform: translate(1px, -4px) rotate(1.5deg); }
+  72% {
+    -webkit-transform: translate(8px, 2px) rotate(-1.5deg);
+            transform: translate(8px, 2px) rotate(-1.5deg); }
+  74% {
+    -webkit-transform: translate(9px, -7px) rotate(-1.5deg);
+            transform: translate(9px, -7px) rotate(-1.5deg); }
+  76% {
+    -webkit-transform: translate(0px, 0px) rotate(-0.5deg);
+            transform: translate(0px, 0px) rotate(-0.5deg); }
+  78% {
+    -webkit-transform: translate(-8px, -3px) rotate(-0.5deg);
+            transform: translate(-8px, -3px) rotate(-0.5deg); }
+  80% {
+    -webkit-transform: translate(9px, -3px) rotate(-0.5deg);
+            transform: translate(9px, -3px) rotate(-0.5deg); }
+  82% {
+    -webkit-transform: translate(5px, 1px) rotate(2.5deg);
+            transform: translate(5px, 1px) rotate(2.5deg); }
+  84% {
     -webkit-transform: translate(1px, -3px) rotate(-0.5deg);
             transform: translate(1px, -3px) rotate(-0.5deg); }
-  10% {
-    -webkit-transform: translate(10px, -8px) rotate(-1.5deg);
-            transform: translate(10px, -8px) rotate(-1.5deg); }
-  12% {
-    -webkit-transform: translate(8px, 1px) rotate(3.5deg);
-            transform: translate(8px, 1px) rotate(3.5deg); }
-  14% {
-    -webkit-transform: translate(-1px, 6px) rotate(1.5deg);
-            transform: translate(-1px, 6px) rotate(1.5deg); }
-  16% {
-    -webkit-transform: translate(9px, 6px) rotate(2.5deg);
-            transform: translate(9px, 6px) rotate(2.5deg); }
-  18% {
-    -webkit-transform: translate(0px, -1px) rotate(2.5deg);
-            transform: translate(0px, -1px) rotate(2.5deg); }
-  20% {
-    -webkit-transform: translate(-7px, 0px) rotate(1.5deg);
-            transform: translate(-7px, 0px) rotate(1.5deg); }
-  22% {
-    -webkit-transform: translate(-3px, -3px) rotate(1.5deg);
-            transform: translate(-3px, -3px) rotate(1.5deg); }
-  24% {
-    -webkit-transform: translate(-6px, -3px) rotate(2.5deg);
-            transform: translate(-6px, -3px) rotate(2.5deg); }
-  26% {
-    -webkit-transform: translate(-8px, 4px) rotate(-0.5deg);
-            transform: translate(-8px, 4px) rotate(-0.5deg); }
-  28% {
-    -webkit-transform: translate(-3px, 0px) rotate(3.5deg);
-            transform: translate(-3px, 0px) rotate(3.5deg); }
-  30% {
-    -webkit-transform: translate(5px, -7px) rotate(1.5deg);
-            transform: translate(5px, -7px) rotate(1.5deg); }
-  32% {
-    -webkit-transform: translate(-6px, 8px) rotate(-2.5deg);
-            transform: translate(-6px, 8px) rotate(-2.5deg); }
-  34% {
-    -webkit-transform: translate(2px, -3px) rotate(-2.5deg);
-            transform: translate(2px, -3px) rotate(-2.5deg); }
-  36% {
-    -webkit-transform: translate(9px, 5px) rotate(0.5deg);
-            transform: translate(9px, 5px) rotate(0.5deg); }
-  38% {
-    -webkit-transform: translate(-3px, 0px) rotate(3.5deg);
-            transform: translate(-3px, 0px) rotate(3.5deg); }
-  40% {
-    -webkit-transform: translate(9px, 8px) rotate(-0.5deg);
-            transform: translate(9px, 8px) rotate(-0.5deg); }
-  42% {
-    -webkit-transform: translate(-8px, -1px) rotate(0.5deg);
-            transform: translate(-8px, -1px) rotate(0.5deg); }
-  44% {
-    -webkit-transform: translate(-1px, 2px) rotate(-2.5deg);
-            transform: translate(-1px, 2px) rotate(-2.5deg); }
-  46% {
-    -webkit-transform: translate(2px, -4px) rotate(-1.5deg);
-            transform: translate(2px, -4px) rotate(-1.5deg); }
-  48% {
-    -webkit-transform: translate(4px, -5px) rotate(-1.5deg);
-            transform: translate(4px, -5px) rotate(-1.5deg); }
-  50% {
-    -webkit-transform: translate(0px, -7px) rotate(-1.5deg);
-            transform: translate(0px, -7px) rotate(-1.5deg); }
-  52% {
-    -webkit-transform: translate(-5px, 0px) rotate(-2.5deg);
-            transform: translate(-5px, 0px) rotate(-2.5deg); }
-  54% {
-    -webkit-transform: translate(-9px, -4px) rotate(-0.5deg);
-            transform: translate(-9px, -4px) rotate(-0.5deg); }
-  56% {
-    -webkit-transform: translate(8px, 6px) rotate(-2.5deg);
-            transform: translate(8px, 6px) rotate(-2.5deg); }
-  58% {
-    -webkit-transform: translate(-8px, 6px) rotate(-0.5deg);
-            transform: translate(-8px, 6px) rotate(-0.5deg); }
-  60% {
-    -webkit-transform: translate(10px, 7px) rotate(3.5deg);
-            transform: translate(10px, 7px) rotate(3.5deg); }
-  62% {
-    -webkit-transform: translate(8px, -2px) rotate(-2.5deg);
-            transform: translate(8px, -2px) rotate(-2.5deg); }
-  64% {
-    -webkit-transform: translate(-9px, 10px) rotate(3.5deg);
-            transform: translate(-9px, 10px) rotate(3.5deg); }
-  66% {
-    -webkit-transform: translate(3px, 9px) rotate(-2.5deg);
-            transform: translate(3px, 9px) rotate(-2.5deg); }
-  68% {
-    -webkit-transform: translate(3px, -8px) rotate(2.5deg);
-            transform: translate(3px, -8px) rotate(2.5deg); }
-  70% {
-    -webkit-transform: translate(6px, -8px) rotate(2.5deg);
-            transform: translate(6px, -8px) rotate(2.5deg); }
-  72% {
-    -webkit-transform: translate(9px, 0px) rotate(-2.5deg);
-            transform: translate(9px, 0px) rotate(-2.5deg); }
-  74% {
-    -webkit-transform: translate(-8px, -8px) rotate(-0.5deg);
-            transform: translate(-8px, -8px) rotate(-0.5deg); }
-  76% {
-    -webkit-transform: translate(-1px, -3px) rotate(3.5deg);
-            transform: translate(-1px, -3px) rotate(3.5deg); }
-  78% {
-    -webkit-transform: translate(3px, -9px) rotate(3.5deg);
-            transform: translate(3px, -9px) rotate(3.5deg); }
-  80% {
-    -webkit-transform: translate(8px, 4px) rotate(-1.5deg);
-            transform: translate(8px, 4px) rotate(-1.5deg); }
-  82% {
-    -webkit-transform: translate(6px, -5px) rotate(-2.5deg);
-            transform: translate(6px, -5px) rotate(-2.5deg); }
-  84% {
-    -webkit-transform: translate(-3px, -3px) rotate(2.5deg);
-            transform: translate(-3px, -3px) rotate(2.5deg); }
   86% {
-    -webkit-transform: translate(0px, -7px) rotate(0.5deg);
-            transform: translate(0px, -7px) rotate(0.5deg); }
+    -webkit-transform: translate(-6px, -7px) rotate(3.5deg);
+            transform: translate(-6px, -7px) rotate(3.5deg); }
   88% {
-    -webkit-transform: translate(-9px, -6px) rotate(0.5deg);
-            transform: translate(-9px, -6px) rotate(0.5deg); }
+    -webkit-transform: translate(3px, -9px) rotate(-1.5deg);
+            transform: translate(3px, -9px) rotate(-1.5deg); }
   90% {
-    -webkit-transform: translate(-8px, 1px) rotate(3.5deg);
-            transform: translate(-8px, 1px) rotate(3.5deg); }
+    -webkit-transform: translate(-6px, 5px) rotate(-0.5deg);
+            transform: translate(-6px, 5px) rotate(-0.5deg); }
   92% {
-    -webkit-transform: translate(4px, -5px) rotate(3.5deg);
-            transform: translate(4px, -5px) rotate(3.5deg); }
+    -webkit-transform: translate(4px, 10px) rotate(-1.5deg);
+            transform: translate(4px, 10px) rotate(-1.5deg); }
   94% {
-    -webkit-transform: translate(4px, 9px) rotate(1.5deg);
-            transform: translate(4px, 9px) rotate(1.5deg); }
+    -webkit-transform: translate(-9px, -6px) rotate(3.5deg);
+            transform: translate(-9px, -6px) rotate(3.5deg); }
   96% {
-    -webkit-transform: translate(3px, 4px) rotate(-2.5deg);
-            transform: translate(3px, 4px) rotate(-2.5deg); }
+    -webkit-transform: translate(-5px, -4px) rotate(2.5deg);
+            transform: translate(-5px, -4px) rotate(2.5deg); }
   98% {
-    -webkit-transform: translate(5px, 2px) rotate(2.5deg);
-            transform: translate(5px, 2px) rotate(2.5deg); }
+    -webkit-transform: translate(6px, -6px) rotate(0.5deg);
+            transform: translate(6px, -6px) rotate(0.5deg); }
   0%, 100% {
     -webkit-transform: translate(0, 0) rotate(0);
             transform: translate(0, 0) rotate(0); } }
@@ -2402,7 +2402,7 @@ nav {
         transition: all 0.5s;
         -webkit-box-shadow: -7px 0 30px #000000;
                 box-shadow: -7px 0 30px #000000;
-        top: -10px; } }
+        top: 0; } }
     @media screen and (max-width: 767px) {
       nav > ul li:first-child {
         margin: 50px 0 10px 0; } }
@@ -2977,7 +2977,7 @@ nav {
       .BTNdark i.fa {
         display: none; } }
 
-.blueButton {
+.blueButton, .GrayButton {
   display: block;
   width: 165px;
   height: 47px;
@@ -2988,11 +2988,18 @@ nav {
   margin: 20px auto 0 auto;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .blueButton:hover {
+  transition: all 0.5s;
+  border: none; }
+  .blueButton:hover, .GrayButton:hover {
     color: #fff;
     -webkit-box-shadow: 0 0 30px #5ad9f9;
             box-shadow: 0 0 30px #5ad9f9; }
+
+.GrayButton {
+  background-color: #c5c5c5; }
+  .GrayButton:hover {
+    -webkit-box-shadow: #c5c5c5;
+            box-shadow: #c5c5c5; }
 
 .ActiveBTNtoogleFrontImg, .LightBTNtoogleFrontImg {
   width: 123px;
@@ -3040,6 +3047,9 @@ nav {
   font-size: 1.4em;
   color: #8dd8f8;
   font-weight: 500; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 /* Slider */
 .slick-slider {
@@ -3363,6 +3373,60 @@ nav {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
 
+@media screen and (max-width: 767px) {
+  .custom-radios {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }
+
+.custom-radios div {
+  display: inline-block; }
+
+.custom-radios input[type="radio"] {
+  display: none; }
+  .custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px; }
+    .custom-radios input[type="radio"] + label span {
+      display: inline-block;
+      width: 29px;
+      height: 29px;
+      margin: -1px 21px 0 0;
+      vertical-align: middle;
+      -webkit-border-radius: 10px;
+              border-radius: 10px;
+      cursor: pointer;
+      background-position: center;
+      text-align: center;
+      line-height: 44px;
+      position: relative; }
+  .custom-radios input[type="radio"]#color-1 + label span {
+    background-color: #2ecc71; }
+  .custom-radios input[type="radio"]#color-2 + label span {
+    background-color: #3498db; }
+  .custom-radios input[type="radio"]#color-3 + label span {
+    background-color: #f1c40f; }
+  .custom-radios input[type="radio"]#color-4 + label span {
+    background-color: #e74c3c; }
+  .custom-radios input[type="radio"]:checked + label span:before {
+    content: '';
+    display: block;
+    width: 33px;
+    height: 33px;
+    border: 1px solid #000;
+    position: relative;
+    left: -2px;
+    top: -2px;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    position: absolute; }
+
 .formSubscription, .footer_formSubscription {
   position: relative;
   top: 15px;
@@ -3423,6 +3487,62 @@ nav {
     height: 30px;
     position: absolute; }
 
+.P_productSelect {
+  width: 176px;
+  height: 36px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: 1px solid #1b1b1b;
+  background: none;
+  padding: 0 0 0 10px;
+  font-size: 1.1em; }
+
+.file-upload {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 34px;
+  background: none;
+  border: 1px solid #1b1b1b;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 8px 4px;
+  color: #fff;
+  text-align: center;
+  margin: 10px auto 0 auto; }
+  .file-upload label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer; }
+    .file-upload label input[type="file"] {
+      display: none; }
+    .file-upload label p {
+      line-height: 36px;
+      color: #5ad9f9;
+      text-align: left;
+      padding: 0 10px;
+      height: 100%;
+      line-height: 32px;
+      font-size: 0.95em; }
+      .file-upload label p span {
+        float: right;
+        text-align: center;
+        color: #949494; }
+        .file-upload label p span mark {
+          background: #949494;
+          -webkit-border-radius: 100%;
+                  border-radius: 100%;
+          height: 20px;
+          width: 20px;
+          display: inline-block;
+          line-height: 20px;
+          color: #fff;
+          font-size: 0.8em; }
+
 .productWrapImg {
   padding-top: 30px; }
   .productWrapImg .ProductBtnWrap {
@@ -3441,41 +3561,159 @@ nav {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    @media screen and (max-width: 767px) {
+      .productWrapImg .ProductBtnWrap {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 90%;
+        margin: 0 auto; } }
   .productWrapImg img {
     display: block;
     margin: 0 auto; }
+    @media screen and (max-width: 767px) {
+      .productWrapImg img {
+        margin: 50px auto 0 auto; } }
 
 .productInfoBar {
   background: #fcfcfc;
-  max-width: 470px;
+  max-width: 480px;
+  min-height: 510px;
   margin: 0 0 0 auto;
   padding: 25px 50px 50px 50px; }
+  @media screen and (max-width: 991px) {
+    .productInfoBar {
+      margin: 0 auto; } }
   .productInfoBar .productName {
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 2em; }
+    font-weight: 400;
+    font-size: 2em;
+    margin: 0; }
+    @media screen and (max-width: 767px) {
+      .productInfoBar .productName {
+        text-align: center; } }
   .productInfoBar hr {
     color: #949494; }
+  .productInfoBar .product_TextDelivery {
+    padding: 20px 0 20px 0; }
   .productInfoBar p {
     font-size: 1.1em;
-    font-weight: 400; }
+    font-weight: 400;
+    margin: 0; }
+  @media screen and (max-width: 767px) {
+    .productInfoBar .textColor {
+      text-align: center; } }
+  @media screen and (max-width: 767px) {
+    .productInfoBar .selectPram {
+      text-align: center;
+      margin: 10px auto; } }
   .productInfoBar .chengeColor {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     padding: 0; }
-    .productInfoBar .chengeColor li .color {
-      display: block;
-      width: 29px;
-      height: 29px;
-      background: #f00;
-      -webkit-border-radius: 10px;
-              border-radius: 10px; }
+    .productInfoBar .chengeColor li {
+      margin: 0 21px 0 0; }
+      .productInfoBar .chengeColor li .color {
+        display: block;
+        width: 29px;
+        height: 29px;
+        background: #f00;
+        -webkit-border-radius: 10px;
+                border-radius: 10px; }
   .productInfoBar .productPrice {
     color: #5ad9f9;
-    font-weight: 600;
-    font-size: 1.4em; }
+    font-weight: 500;
+    font-size: 1.4em;
+    margin: 0 0 15px 0;
+    display: block; }
+    @media screen and (max-width: 767px) {
+      .productInfoBar .productPrice {
+        text-align: center; } }
+  .productInfoBar .product_SelectColor {
+    margin: 20px 0 15px  0; }
+  .productInfoBar .wrapBtn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .productInfoBar .wrapBtn .blueButton, .productInfoBar .wrapBtn .GrayButton {
+      width: 55%;
+      height: 58px;
+      background-color: #8dd8f8; }
+    .productInfoBar .wrapBtn .GrayButton {
+      width: 40%;
+      height: 58px;
+      background-color: #c5c5c5; }
+      .productInfoBar .wrapBtn .GrayButton:hover {
+        -webkit-box-shadow: 0 0 30px #c5c5c5;
+                box-shadow: 0 0 30px #c5c5c5; }
+
+.productCastomInfo figure.productCastomInfoFigure {
+  width: 100%;
+  height: 370px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 34px 20px 10px 20px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-box-shadow: 0 0 10px #c5c5c5;
+          box-shadow: 0 0 10px #c5c5c5;
+  border-bottom: 5px solid #77acbb; }
+  .productCastomInfo figure.productCastomInfoFigure:hover {
+    -webkit-box-shadow: 0 0 20px #c5c5c5;
+            box-shadow: 0 0 20px #c5c5c5;
+    -webkit-border-radius: 8px;
+            border-radius: 8px; }
+  @media screen and (max-width: 991px) {
+    .productCastomInfo figure.productCastomInfoFigure {
+      position: static;
+      margin: 30px auto; } }
+  .productCastomInfo figure.productCastomInfoFigure div {
+    position: relative;
+    margin: 0 0 40px 0; }
+    .productCastomInfo figure.productCastomInfoFigure div img {
+      display: block;
+      margin: 0 auto;
+      position: relative; }
+  .productCastomInfo figure.productCastomInfoFigure figcaption {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4em;
+    color: #fff;
+    margin: 16px 0 35px 0;
+    position: relative;
+    text-transform: uppercase; }
+  .productCastomInfo figure.productCastomInfoFigure ul {
+    padding: 0 0 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.9em; }
+    .productCastomInfo figure.productCastomInfoFigure ul li {
+      position: relative; }
+      .productCastomInfo figure.productCastomInfoFigure ul li::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 5px;
+        height: 5px;
+        background-color: #8c9cd8;
+        left: -4%;
+        top: 45%;
+        -webkit-border-radius: 100%;
+                border-radius: 100%;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s; }
 
 footer.footer h6 {
   text-transform: uppercase;
@@ -3520,7 +3758,7 @@ footer.footer .footer_info ul {
     footer.footer .footer_info ul li a {
       color: #1e1e1e;
       font-size: 1em;
-      font-weight: 300;
+      font-weight: 400;
       -webkit-transition: all 0.4s;
       -o-transition: all 0.4s;
       transition: all 0.4s; }
@@ -3562,12 +3800,16 @@ footer.footer .footer_Subscription {
 
 body {
   background: #fff;
-  margin: 0 0 100px 0; }
+  margin: 0 0 100px 0;
+  color: #1b1b1b; }
 
 a, a:link, a:focus, a:hover {
   text-decoration: none;
   border: none;
   outline: none; }
+
+*:focus {
+  outline: none !important; }
 
 ul {
   list-style: none; }

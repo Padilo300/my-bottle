@@ -364,7 +364,7 @@
     </header>
    <section class="product container">
     <div class="row">
-        <div class="col col-12 col-md-6 productWrapImg">
+        <div class="col col-12 col-md-12 col-lg-6 productWrapImg">
             <div class="ProductBtnWrap">
                 <button class="ActiveBTNtoogleFrontImg">FRONT</button>
                 <button class="LightBTNtoogleFrontImg">BACK</button>
@@ -372,7 +372,7 @@
             
             <img src="img/product/Слой_65.png" alt="product">
         </div>
-        <div class="col col-12 col-md-6">
+        <div class="col col-12 col-md-12 col-lg-6">
             <section class="productInfoBar">
                 <h1 class="productName">
                     PRO SERIES SHAKER
@@ -381,55 +381,147 @@
                     10.99 zl
                 </span>
                 <hr>
-                <p>
-                    W magazynie
-                </p>
-                <p>
-                    Dostawa na cały świat
-                </p>
+
+                <div class="product_TextDelivery">
+                    <p>
+                        <img src="img/ico/check.png" alt="checked"> W magazynie
+                    </p>
+                    <p>
+                        <img src="img/ico/delivery.png" alt="delivery"> Dostawa na cały świat
+                    </p>
+                </div>
+                
                 <hr>
-                <p>
+                <p  class="textColor">
                     Wybierz kolor
                 </p>
-                <ul class="chengeColor">
-                    <li>
-                        <input type="radio" name="" id="" class="color">
-                    </li>
-                    <li>
-                        <input type="radio" name="" id="" class="color">
-                    </li>
-                    <li>
-                        <input type="radio" name="" id="" class="color">
-                    </li>
-                    <li>
-                        <input type="radio" name="" id="" class="color">
-                    </li>
-                </ul>
+                <div class="custom-radios product_SelectColor">
+                    <div>
+                      <input type="radio" id="color-1" name="color" value="color-1" checked>
+                      <label for="color-1">
+                        <span>
+                        </span>
+                      </label>
+                    </div>
+                    
+                    <div>
+                      <input type="radio" id="color-2" name="color" value="color-2">
+                      <label for="color-2">
+                        <span>
+                        </span>
+                      </label>
+                    </div>
+                    
+                    <div>
+                      <input type="radio" id="color-3" name="color" value="color-3">
+                      <label for="color-3">
+                        <span>
+                        </span>
+                      </label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="color-4" name="color" value="color-4">
+                      <label for="color-4">
+                        <span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
                 <div class="row">
-                    <div class="col col-6">
+                    <div class="col col-12 col-md-6 selectPram">
                         <p>
                             Wybierz kolor
                         </p>
-                        <select name="" id="">
+                        <select name="" id="" class="P_productSelect">
                             <option value="700"> 700 ml</option>
                             <option value="500"> 500 ml</option>
                         </select>
                     </div><!-- end col-6 -->
-                    <div class="col col-6">
+                    <div class="col col-12 col-md-6 selectPram">
                         <p>
                             ILOŚĆ
                         </p>
-                        <select name="" id="">
+                        <select name="" id="" class="P_productSelect">
                             <option value="100">100</option>
                             <option value="200">200</option>
                         </select>
                     </div><!-- end col-6 -->
                 </div><!-- end row  -->
-                <input type="file">
-            </section>
+                <div class="file-upload">
+                    <label>
+                        <input type="file" >
+                        <p>
+                            Upload front logo 
+                           <span>
+                               <mark>
+                                   i 
+                               </mark> 
+                               info
+                           </span> 
+                        </p>
+                    </label>
+                </div>
+                <div class="wrapBtn">
+                    <button class="blueButton">
+                        BUY NOW
+                    </button>
+    
+                    <button class="GrayButton">
+                        CART
+                    </button>
+                </div>
+                
+            </section><!-- end productInfoBar -->
            
         </div><!-- end col-12 -->
-    </div>
+    </div><!-- end row -->
+
+    <div class="hr"></div><!-- черта -->
+
+    <section class="productCastomInfo container">
+        <div class="row">
+            <div class="col-12 col col-md-12 col-lg-5">
+                <div class="productCastomInfoWrapIMG">
+                    <img src="img/product/productInfo.png" alt="my-bottle">
+                </div>
+            </div>
+            <div class="col-12 col col-md-12 col-lg-7">
+                <div class="row">
+                    <div class="col col-md-6 col-sm-12">
+                        <figure class="productCastomInfoFigure">
+                            <div>
+                                <img src="img/product/Slice_1.png" alt="alt">
+                            </div>
+                           <ul>
+                               <li>Nie ma fasfsad ma fasfsad dfsf</li>
+                               <li>Nie ma fasd dfsf</li>
+                               <li>Nie ma fasfsad dfsma fasfsadf dfsma fasfsadf</li>
+                               <li>Nie ma fasfsad dfsf dfsma fasfsadf</li>
+                               <li>Nie ma fasfsad dfsf ma fasfsad</li>
+                               <li>Nie ma fasfsad dfsf</li>    
+                           </ul>
+                        </figure>
+                    </div> <!-- end col -->
+                    <div class="col col-md-6 col-sm-12">
+                            <figure class="productCastomInfoFigure">
+                                <div>
+                                    <img src="img/product/Slice_2.png" alt="alt">
+                                </div>
+                               <ul>
+                                   <li>Nie ma fasfsad ma fasfsad dfsf</li>
+                                   <li>Nie ma fasd dfsf</li>
+                                   <li>Nie ma fasfsad dfsma fasfsadf dfsma fasfsadf</li>
+                                   <li>Nie ma fasfsad dfsf dfsma fasfsadf</li>
+                                   <li>Nie ma fasfsad dfsf ma fasfsad</li>
+                                   <li>Nie ma fasfsad dfsf</li>    
+                               </ul>
+                            </figure>
+                        </div> <!-- end col -->
+                </div><!-- end row -->
+            </div>
+        </div>
+    </section>
    </section>
     <footer class="footer container">
         <div class="row">

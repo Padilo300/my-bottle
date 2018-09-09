@@ -6,29 +6,62 @@
         position: absolute;
         height: 85px;
         justify-content: space-between;
+        @media screen and (max-width: 767px){
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+            margin: 0 auto;
+        }
     }
     img{
         display: block;
         margin: 0 auto;
+        @media screen and (max-width: 767px){
+            margin: 50px auto 0 auto;
+        }
     }
    
 }
 .productInfoBar{
     background: #fcfcfc;
-    max-width: 470px;
+    max-width: 480px;
+    min-height: 510px;
     margin: 0 0 0 auto;
     padding: 25px 50px 50px 50px;
+    @media screen and (max-width: 991px) {
+        margin: 0 auto
+    }
     .productName{
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 2em;
+        margin: 0;
+        @media screen and (max-width: 767px){
+            text-align: center;
+        }
     }
     hr{
         color: $lightGray;
     }
+    .product_TextDelivery{
+        padding: 20px 0 20px 0;
+    }
     p{
         font-size: 1.1em;
         font-weight: 400;
+        margin: 0;
+        
+    }
+    .textColor{
+        @media screen and (max-width: 767px){
+            text-align: center;
+        }
+    }
+    .selectPram{
+        @media screen and (max-width: 767px){
+            text-align: center;
+            margin: 10px auto;
+        }
     }
     .chengeColor{
         display: flex;
@@ -46,7 +79,33 @@
     }
     .productPrice{
         color: $mainBlue;
-        font-weight: 600;
-        font-size: 1.4em
+        font-weight: 500;
+        font-size: 1.4em;
+        margin: 0 0 15px 0;
+        display: block;
+        @media screen and (max-width: 767px){
+            text-align: center;
+        }
     }
+
+    .product_SelectColor{
+        margin: 20px 0 15px  0;
+    }
+    .wrapBtn{
+        display: flex;
+        .blueButton{
+            width: 55%;
+            height: 58px;
+            background-color: $blue;
+        }
+        .GrayButton{
+            width: 40%;
+            height: 58px;
+            background-color: $gray;
+            &:hover{
+                box-shadow: 0 0 30px  $gray;
+            }
+        }
+    }
+    
 }

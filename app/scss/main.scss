@@ -17,12 +17,12 @@
 @import "../../node_modules/csshake/scss/csshake-slow"        ; // анимации шейка
 
 // переменные
-@import "variable/variable"         ; 
-@import "variable/color"            ; 
+@import "variable/variable"         ; // пустой файл не понятно для чего
+@import "variable/color"            ; // цвета 
 
 
 // special animation->placeholder; castom browserScrollBar
-@import "special/special.scss"      ;
+@import "special/special.scss"      ; // кастомизация скроллбара
 @import "special/scrollUp.scss"     ; // прокрутка вверх
 @import "special/placeholder.scss"  ; // плейсхолдеры в input
 
@@ -43,28 +43,37 @@
 
 // body 
 @import 'body/button/button'    ; // кнопки
-@import 'body/form/form'        ; // формы инпуты
 @import 'body/text/text'        ; // текст
 @import 'body/slider/slick'     ; // слайдер slick
 @import 'body/slider/slider'    ; // слайдер на главной
+@import 'body/hr'               ; // Черта
+
 
 // body home section
 @import 'body/home/section/specialProductHome/specialProductHome'               ; // Секция слайдер + спец.Продукт
 @import 'body/home/section/specialProductHome/homeSpecialProductRightSide'      ; // спец.Продукт
 @import 'body/section/subscription'                                             ; // Секция подписка
-@import 'body/home/section/imgCategory/imgCategory'                             ; // Секция категории картинками
-@import 'body/home/section/aboutUs/aboutUs'                                     ; // О нас
+@import 'body/home/section/imgCategory/imgCategory'                             ; // Главная страница Секция категории картинками
+@import 'body/home/section/aboutUs/aboutUs'                                     ; // Главная страница О нас
 @import 'body/section/specialProduct/specialProduct'                            ; // Секция спец. предложение
+
+
+// form 
+@import 'body/form/productColorRadio'                                           ; // страница товара кнопки radio (выбор цвета)
 @import 'body/form/formSubscription'                                            ; // Форма  подписки
+@import 'body/form/form'                                                        ; // Формы  input
+@import 'body/form/select'                                                      ; // Формы  select
+@import 'body/form/inputFile'                                                   ; // Формы  select
 
 // product section
-@import 'pages/product/product'     ; // страница продукта
+@import 'pages/product/product'                   ; // страница продукта
+@import 'pages/product/productCastomInfo'         ; // Описание продукта
 
 // footer
-@import 'footer/footer'     ;
+@import 'footer/footer'                 ; // footer
 
 // pages HOME
-@import 'pages/home/first_section';
+@import 'pages/home/first_section'      ; // Главная страница, первая секция
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
@@ -73,11 +82,15 @@
 body{
     background: #fff;
     margin: 0 0 100px 0;
+    color: $black;
 }
 a, a:link, a:focus, a:hover{
     text-decoration: none; 
     border: none;
     outline: none;
+}
+*:focus{
+    outline: none !important;
 }
 ul{
     list-style: none;
