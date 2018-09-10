@@ -1,5 +1,6 @@
 .productWrapImg{
     padding-top: 30px;
+   
     .ProductBtnWrap{
         display: flex;
         flex-direction: column;
@@ -23,13 +24,18 @@
    
 }
 .productInfoBar{
-    background: #fcfcfc;
+    .productInfoBarWrap{
+        background: #fcfcfc;
+        padding: 25px 50px 50px 50px
+    }
     max-width: 480px;
     min-height: 510px;
     margin: 0 0 0 auto;
-    padding: 25px 50px 50px 50px;
     @media screen and (max-width: 991px) {
         margin: 0 auto
+    }
+    .file-upload{
+        margin: 20px 0 0 0;
     }
     .productName{
         text-transform: uppercase;
@@ -61,6 +67,9 @@
         @media screen and (max-width: 767px){
             text-align: center;
             margin: 10px auto;
+        }
+        p{
+            margin: 0 0 15px 0;
         }
     }
     .chengeColor{
@@ -97,15 +106,30 @@
             width: 55%;
             height: 58px;
             background-color: $blue;
+            margin-top: 0;
         }
         .GrayButton{
             width: 40%;
             height: 58px;
             background-color: $gray;
+            margin-top: 0;
             &:hover{
                 box-shadow: 0 0 30px  $gray;
             }
         }
     }
     
+}
+.specialProduct{
+    margin: 0 auto 50px auto;
+    .specialProductTitle{
+        p{
+            font-size: 1.6em;
+            font-weight: 900;
+            margin: 0 0 50px 0;
+            @media screen and (max-width: 767px) {
+                text-align: center;
+            }
+        }
+    }
 }

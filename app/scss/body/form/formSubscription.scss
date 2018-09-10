@@ -43,6 +43,9 @@
     @media screen and (max-width: 600px) {
         width: 335px;
     }
+    @media screen and (max-width: 400px) {
+        width: 100%;
+    }
     input{
         border: 2px solid $aqva;
         width: 310px;

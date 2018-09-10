@@ -374,96 +374,98 @@
         </div>
         <div class="col col-12 col-md-12 col-lg-6">
             <section class="productInfoBar">
-                <h1 class="productName">
-                    PRO SERIES SHAKER
-                </h1>
-                <span class="productPrice">
-                    10.99 zl
-                </span>
-                <hr>
+                <div class="productInfoBarWrap">
+                    <h1 class="productName">
+                        PRO SERIES SHAKER
+                    </h1>
+                    <span class="productPrice">
+                        10.99 zl
+                    </span>
+                    <hr>
 
-                <div class="product_TextDelivery">
-                    <p>
-                        <img src="img/ico/check.png" alt="checked"> W magazynie
-                    </p>
-                    <p>
-                        <img src="img/ico/delivery.png" alt="delivery"> Dostawa na cały świat
-                    </p>
-                </div>
-                
-                <hr>
-                <p  class="textColor">
-                    Wybierz kolor
-                </p>
-                <div class="custom-radios product_SelectColor">
-                    <div>
-                      <input type="radio" id="color-1" name="color" value="color-1" checked>
-                      <label for="color-1">
-                        <span>
-                        </span>
-                      </label>
+                    <div class="product_TextDelivery">
+                        <p>
+                            <img src="img/ico/check.png" alt="checked"> W magazynie
+                        </p>
+                        <p>
+                            <img src="img/ico/delivery.png" alt="delivery"> Dostawa na cały świat
+                        </p>
                     </div>
                     
-                    <div>
-                      <input type="radio" id="color-2" name="color" value="color-2">
-                      <label for="color-2">
-                        <span>
-                        </span>
-                      </label>
-                    </div>
+                    <hr>
+                    <p  class="textColor uppercase">
+                        Wybierz kolor
+                    </p>
+                    <div class="custom-radios product_SelectColor">
+                        <div>
+                        <input type="radio" id="color-1" name="color" value="color-1" checked>
+                        <label for="color-1">
+                            <span>
+                            </span>
+                        </label>
+                        </div>
+                        
+                        <div>
+                        <input type="radio" id="color-2" name="color" value="color-2">
+                        <label for="color-2">
+                            <span>
+                            </span>
+                        </label>
+                        </div>
+                        
+                        <div>
+                        <input type="radio" id="color-3" name="color" value="color-3">
+                        <label for="color-3">
+                            <span>
+                            </span>
+                        </label>
+                        </div>
                     
-                    <div>
-                      <input type="radio" id="color-3" name="color" value="color-3">
-                      <label for="color-3">
-                        <span>
-                        </span>
-                      </label>
+                        <div>
+                        <input type="radio" id="color-4" name="color" value="color-4">
+                        <label for="color-4">
+                            <span>
+                            </span>
+                        </label>
+                        </div>
                     </div>
-                  
-                    <div>
-                      <input type="radio" id="color-4" name="color" value="color-4">
-                      <label for="color-4">
-                        <span>
-                        </span>
-                      </label>
+                    <div class="row">
+                        <div class="col col-12 col-md-6 selectPram">
+                            <p class="uppercase">
+                                Wybierz kolor
+                            </p>
+                            <select name="" id="" class="P_productSelect">
+                                <option value="700"> 700 ml</option>
+                                <option value="500"> 500 ml</option>
+                            </select>
+                        </div><!-- end col-6 -->
+                        <div class="col col-12 col-md-6 selectPram">
+                            <p class="uppercase">
+                                ILOŚĆ
+                            </p>
+                            <select name="" id="" class="P_productSelect">
+                                <option value="100">100</option>
+                                <option value="200">200</option>
+                            </select>
+                        </div><!-- end col-6 -->
+                    </div><!-- end row  -->
+                    <div class="file-upload">
+                        <label>
+                            <input type="file" >
+                            <p>
+                                Upload front logo 
+                            <span>
+                                <mark>
+                                    i 
+                                </mark> 
+                                info
+                            </span> 
+                            </p>
+                        </label>
                     </div>
-                  </div>
-                <div class="row">
-                    <div class="col col-12 col-md-6 selectPram">
-                        <p>
-                            Wybierz kolor
-                        </p>
-                        <select name="" id="" class="P_productSelect">
-                            <option value="700"> 700 ml</option>
-                            <option value="500"> 500 ml</option>
-                        </select>
-                    </div><!-- end col-6 -->
-                    <div class="col col-12 col-md-6 selectPram">
-                        <p>
-                            ILOŚĆ
-                        </p>
-                        <select name="" id="" class="P_productSelect">
-                            <option value="100">100</option>
-                            <option value="200">200</option>
-                        </select>
-                    </div><!-- end col-6 -->
-                </div><!-- end row  -->
-                <div class="file-upload">
-                    <label>
-                        <input type="file" >
-                        <p>
-                            Upload front logo 
-                           <span>
-                               <mark>
-                                   i 
-                               </mark> 
-                               info
-                           </span> 
-                        </p>
-                    </label>
-                </div>
+                </div><!-- end productInfoBarWrap -->
                 <div class="wrapBtn">
-                    <button class="blueButton">
+                    <button class="blueButton animated-button gibson-one">
                         BUY NOW
                     </button>
     
@@ -471,7 +473,6 @@
                         CART
                     </button>
                 </div>
-                
             </section><!-- end productInfoBar -->
            
         </div><!-- end col-12 -->
@@ -488,7 +489,7 @@
             </div>
             <div class="col-12 col col-md-12 col-lg-7">
                 <div class="row">
-                    <div class="col col-md-6 col-sm-12">
+                    <div class="col col-md-6 col-12">
                         <figure class="productCastomInfoFigure">
                             <div>
                                 <img src="img/product/Slice_1.png" alt="alt">
@@ -503,7 +504,7 @@
                            </ul>
                         </figure>
                     </div> <!-- end col -->
-                    <div class="col col-md-6 col-sm-12">
+                    <div class="col col-md-6 col-12">
                             <figure class="productCastomInfoFigure">
                                 <div>
                                     <img src="img/product/Slice_2.png" alt="alt">
@@ -520,9 +521,158 @@
                         </div> <!-- end col -->
                 </div><!-- end row -->
             </div>
+        </div> <!-- end row -->
+        <section class="productCastomInfo_ItemOne row">
+                <div class="col col-md-12 col-sm-12 col-lg-7">
+                    <div class="productCastomInfo_ItemOne_text">
+                        <article>
+                            <h2 class="titleAndBorderb">
+                                Our best-selling shaker.elevated.
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima tempora laudantium quisquam nostrum cumque culpa ipsum. Nostrum, quidem quis! Est hic sit illo quia quae recusandae dignissimos reiciendis! Quis, accusantium.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus obcaecati eius id quis! Quaerat cumque dolores unde vitae consectetur nam, voluptatum perspiciatis ad iste id sed repudiandae modi nostrum.
+                                lore
+                            </p>
+                            <button class="BTNdark">
+                                BUY NOW  <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </button>
+                        </article>
+                    </div>
+                </div>
+                <div class="col-12 col col-md-12 col-lg-5 productCastomInfo_ItemOne_IMG">
+                    <img src="img/product/68.png" alt="img">
+                </div>
+        </section><!-- end productCastomInfo_ItemOne  -->
+        <section class="productCastomInfo_ItemTwo row">
+            <div class="col col-md-12 col-sm-12 col-lg-7">
+                <div class="productCastomInfo_ItemOne_text">
+                    <ul>
+                        <li class="row">
+                            <div class="col col-lg-3 col-md-3 col-12">
+                                <img src="img/product/23.png" alt="img">
+                            </div>                            
+                            <div class="col col-lg-9">
+                                <p class="titleAndBorderb">
+                                    New pro series lid
+                                </p>
+                                <p class="textInfoProduct">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore ratione quae ducimus, recusandae ea quasi inventore nobis porro unde iste eius repellat cupiditate labore ipsa, dolorem iusto. Porro, in?
+                                </p>
+                            </div>                            
+                        </li>
+
+                        <li class="row">
+                            <div class="col col-lg-3 col-md-3 col-12">
+                                <img src="img/product/234.png" alt="img">
+                            </div>                            
+                            <div class="col col-lg-9">
+                                <p class="titleAndBorderb">
+                                    New pro series lid
+                                </p>
+                                <p class="textInfoProduct">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore ratione quae ducimus, recusandae ea quasi inventore nobis porro unde iste eius repellat cupiditate labore ipsa, dolorem iusto. Porro, in?
+                                </p>
+                            </div>                            
+                        </li>
+
+                        <li class="row">
+                            <div class="col col-lg-3 col-md-3 col-12">
+                                <img src="img/product/342.png" alt="img">
+                            </div>                            
+                            <div class="col col-lg-9">
+                                <p class="titleAndBorderb">
+                                    New pro series lid
+                                </p>
+                                <p class="textInfoProduct">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore ratione quae ducimus, recusandae ea quasi inventore nobis porro unde iste eius repellat cupiditate labore ipsa, dolorem iusto. Porro, in?
+                                </p>
+                            </div>                            
+                        </li>
+
+                        <li class="row">
+                            <div class="col col-lg-3 col-md-3 col-12">
+                                <img src="img/product/72.png" alt="img">
+                            </div>                            
+                            <div class="col col-lg-9">
+                                <p class="titleAndBorderb">
+                                    New pro series lid
+                                </p>
+                                <p class="textInfoProduct">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut dolore ratione quae ducimus, recusandae ea quasi inventore nobis porro unde iste eius repellat cupiditate labore ipsa, dolorem iusto. Porro, in?
+                                </p>
+                            </div>                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col col-md-12 col-lg-5 productCastomInfo_ItemOne_IMG">
+                <img src="img/product/111.png" alt="img">
+            </div>
+        </section>
+    </section><!-- end productCastomInfo.container -->
+
+   </section> <!-- end product container -->
+
+   <section class="specialProduct container">
+        <div class="row">
+            <div class="col col-12 specialProductTitle">
+                <p>
+                    MOŻE CI SIĘ SPODOBAĆ RÓWNIEŻ
+                </p>
+            </div>
+            <div class="col ">
+                <section class="specialProductItem">
+                    <a href="/" class="specialProductWrapImg">
+                        <img src="img/product/33.png"  class="shake-slow"  alt="Бомбовый шейкер">
+                    </a>
+                    <a href="/" class="blueButton">
+                        BUY NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </a>
+                </section>
+            </div>
+            <div class="col ">
+                <section class="specialProductItem">
+                    <a href="/" class="specialProductWrapImg">
+                        <img src="img/product/49.png"  class="shake-slow"  alt="Бомбовый шейкер">
+                    </a>
+                    <a href="/" class="blueButton">
+                        BUY NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </a>
+                </section>
+            </div>
+            <div class="col ">
+                <section class="specialProductItem">
+                    <a href="/" class="specialProductWrapImg">
+                        <img src="img/product/49.png"  class="shake-slow"  alt="Бомбовый шейкер">
+                    </a>
+                    <a href="/" class="blueButton">
+                        BUY NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </a>
+                </section>
+            </div>
+            <div class="col ">
+                <section class="specialProductItem">
+                    <a href="/" class="specialProductWrapImg">
+                        <img src="img/product/50.png"  class="shake-slow"  alt="Бомбовый шейкер">
+                    </a>
+                    <a href="/" class="blueButton">
+                        BUY NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </a>
+                </section>
+            </div>
+            <div class="col ">
+                <section class="specialProductItem">
+                    <a href="/" class="specialProductWrapImg">
+                        <img src="img/product/51.png"  class="shake-slow"  alt="Бомбовый шейкер">
+                    </a>
+                    <a href="/" class="blueButton">
+                        BUY NOW <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </a>
+                </section>
+            </div>
         </div>
-    </section>
-   </section>
+    </section><!-- end specialProduct.container -->
     <footer class="footer container">
         <div class="row">
             <div class="col col-12 col-md-6 col-lg-3">

@@ -1,4 +1,16 @@
 .productCastomInfo{
+    img{
+        max-width: 100%;
+    }
+    .productCastomInfoWrapIMG{
+        img{
+            @media screen and (max-width: 991px) {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        
+    }
     figure.productCastomInfoFigure{
         width: 100%;
         height: 370px;
@@ -8,6 +20,10 @@
         transition: all 0.4s;
         box-shadow: 0 0 10px $gray;
         border-bottom: 5px solid #77acbb;
+        @media screen and (max-width: 991px) {
+            min-height: 370px;
+            height: max-content;
+        }
         &:hover{
             box-shadow: 0 0 20px $gray;
             border-radius: 8px;
@@ -55,6 +71,83 @@
                     top: 45%;
                     border-radius: 100%;
                     transition: all 0.3s;
+                }
+            }
+        }
+    }
+    .productCastomInfo_ItemOne{
+        .productCastomInfo_ItemOne_text{
+            margin: 0 0 50px 0;
+            article{
+                padding: 50px 0 0 0;
+              
+                .BTNdark{
+                    width: 230px;
+                    height: 58px;
+                    background-color: $darkButton2;
+                    @media screen and (max-width: 991px){
+                        margin: 0 auto;
+                        display: block;
+                    }
+                    .fa{
+                        top: 20px;
+                    }
+                    &:hover{
+                        box-shadow: 0 0 20px $darkButton2;
+                    }
+                }
+            }
+        }
+        .productCastomInfo_ItemOne_IMG{
+            img{
+                @media screen and (max-width: 991px) {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .productCastomInfo_ItemTwo{
+        .productCastomInfo_ItemOne_text{
+            ul{
+                padding: 0;
+                li{
+                    img{
+                        display: block;
+                        margin: 0 auto;
+                        max-width: 100%;
+                    }
+                    .titleAndBorderb{
+                        font-size: 1.2em;
+                        padding: 7px 0 10px 0;
+                        border-color: $lightGray;
+                        position: relative;
+                        &::after{
+                            position: absolute;
+                            content: "";
+                            width: 10px;
+                            height: 10px;
+                            background-color: $lightGray;
+                            right: 0;
+                            bottom: -6px;
+                            border-radius: 100%;
+                            @media screen and (max-width: 767px) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .productCastomInfo_ItemOne_IMG{
+            img{
+                max-width: none;
+                max-height: 100%;
+                @media screen and (max-width: 991px) {
+                    max-width: 100%;
+                    max-height: none;
+                    display: block;
+                    margin: 0 auto;
                 }
             }
         }
