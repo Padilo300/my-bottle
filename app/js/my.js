@@ -1,3 +1,19 @@
+ ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //                            карточка товара (изображение с переди \ сзади)
+
+    function swapImgFRONT(){
+        var img      = $('#swapImg');
+        var imgFront = img.attr('data-front');
+        img.attr('src', imgFront);
+
+    }
+    function swapImgBACK(){
+        var img      = $('#swapImg');
+        var imgBack = img.attr('data-back');
+        img.attr('src', imgBack);
+
+    }
+
 $(document).ready(function () {
 
     
@@ -28,7 +44,8 @@ $(document).ready(function () {
     });
 
 
-    // откроет меню
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+    //                                                      откроет меню
     function openNav(){
         $('.mobilBar').toggleClass("openNav");
         $('#nav').toggleClass('showNav');
@@ -38,7 +55,8 @@ $(document).ready(function () {
         openNav();
     });
     
-
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                          кнопка вверх
     $(document).ready(function(){
         $('body').append('<a href="#" id="go-top" title="Вверх"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>');
       });
@@ -61,4 +79,8 @@ $(document).ready(function () {
       $(function() {
        $("#go-top").scrollToTop();
       });
+
+
+   
+
 });

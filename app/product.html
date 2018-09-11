@@ -366,11 +366,11 @@
     <div class="row">
         <div class="col col-12 col-md-12 col-lg-6 productWrapImg">
             <div class="ProductBtnWrap">
-                <button class="ActiveBTNtoogleFrontImg">FRONT</button>
-                <button class="LightBTNtoogleFrontImg">BACK</button>
+                <button class="ActiveBTNtoogleFrontImg" onclick="swapImgFRONT()">FRONT</button>
+                <button class="LightBTNtoogleFrontImg" onclick="swapImgBACK()">BACK</button>
             </div>
             
-            <img src="img/product/Слой_65.png" alt="product">
+            <img src="img/product/Слой_65.png" id="swapImg" data-front="img/product/Слой_65.png" data-back="img/product/4.png" alt="product">
         </div>
         <div class="col col-12 col-md-12 col-lg-6">
             <section class="productInfoBar">
