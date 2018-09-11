@@ -9,7 +9,7 @@ footer.footer{
             padding: 0 0 0 50px;
         }
         @media screen and (max-width: 767px) {
-            padding: 10% 0 0 30%;
+            padding: 10% 0 0 0;
         }
     }
     .footer_info{
@@ -41,6 +41,9 @@ footer.footer{
                     font-size: 1em;
                     font-weight: 400;
                     transition: all 0.4s;
+                    @media screen and (max-width: 767px) {
+                        font-size: 0.9em;
+                    }
                 }
                 &:hover{
                     a{

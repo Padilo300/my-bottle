@@ -1,0 +1,13 @@
+.article{
+    .cartArticle{
+        padding-bottom: 20px;
+        min-height: auto;
+        .hr{
+            display: block !important;
+        }
+    }
+    p{
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+}

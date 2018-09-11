@@ -10,10 +10,20 @@
     .nav{
         display: inline-flex;
         margin: 0 30% 0 0;
-        a{
-            color: $lightGray ;
-            padding: 0rem 1rem;
+        li{
+            a{
+                color: $lightGray ;
+                padding: 0rem 1rem;
+                border-right: 1px dotted;
+                
+            }
+            &:last-child{
+                a{
+                    border-right: none;
+                }
+            }
         }
+        
         @media screen and (max-width: 991px) {
             margin: 0 auto;
             display: flex;

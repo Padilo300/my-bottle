@@ -1,17 +1,20 @@
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     //                            карточка товара (изображение с переди \ сзади)
 
-    function swapImgFRONT(){
-        var img      = $('#swapImg');
-        var imgFront = img.attr('data-front');
-        img.attr('src', imgFront);
+    function swapImgFRONT(idThis, back){
+        var img      = $('#swapImg')            ;
+        var imgFront = img.attr('data-front')   ;
+        img.attr('src', imgFront)               ;
+        $(idThis).addClass('active')            ;
+        $(back).removeClass('active')           ;
 
     }
-    function swapImgBACK(){
-        var img      = $('#swapImg');
-        var imgBack = img.attr('data-back');
-        img.attr('src', imgBack);
-
+    function swapImgBACK(idThis, front){
+        var img      = $('#swapImg')            ;
+        var imgBack  = img.attr('data-back')    ;
+        img.attr('src', imgBack)                ;
+        $(idThis).addClass('active')            ;
+        $(front).removeClass('active')           ;
     }
 
 $(document).ready(function () {

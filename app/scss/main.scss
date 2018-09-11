@@ -47,6 +47,8 @@
 @import 'body/slider/slick'             ; // слайдер slick
 @import 'body/slider/slider'            ; // слайдер на главной
 @import 'body/hr'                       ; // Черта
+@import 'body/img'                      ; // img стандартные стили
+@import 'body/pagination'               ; // стили пагинации
 
 
 // body home section
@@ -68,6 +70,9 @@
 // product section
 @import 'pages/product/product'                   ; // страница продукта
 @import 'pages/product/productCastomInfo'         ; // Описание продукта
+@import 'pages/blog/blog'                         ; // Страница блога
+@import 'pages/blog/cartArticle'                  ; // Страница блога (карточка статьи)
+@import 'pages/blog/article'                      ; // Страница статьи блога 
 
 // footer
 @import 'footer/footer'                 ; // footer

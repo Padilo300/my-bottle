@@ -1,0 +1,20 @@
+.blog{
+    margin-top: 50px;
+    .titleAndBorderb{
+        font-size: 1.3em;
+        padding: 0 0 10px 10px;
+        border-color: $lightGrayBorder;
+        margin: 0;
+    }
+    .articleDate{
+        font-weight: 600;
+        position: relative;
+        top: -15px;
+    }
+    .wrapArticle{
+        padding: 0 0 0 10px;
+    }
+    .subscription{
+        margin: 50px auto 20px auto;
+    }
+}

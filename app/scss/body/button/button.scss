@@ -49,6 +49,7 @@
     margin: 20px auto 0 auto;
     transition: all 0.5s;
     border: none;
+    cursor: pointer;
     &:hover{
         color: #fff;
         box-shadow: 0 0 30px $mainBlue;
@@ -71,8 +72,14 @@
     background-color: $mainBlue;
     border: none;
     color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+    &.active{
+     opacity: 1;   
+    }
 }
 .LightBTNtoogleFrontImg{
     @extend .ActiveBTNtoogleFrontImg;
-    opacity: 0.5;
+    
+    
 }

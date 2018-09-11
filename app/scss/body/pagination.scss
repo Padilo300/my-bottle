@@ -1,0 +1,17 @@
+.pagination{
+    .pagination_button{
+        display: flex;
+        justify-content: space-between;
+        max-width: 360px;
+        margin: 30px  auto 0  auto;
+        color: $blue2;
+        a{
+            color: $blue2;
+        }
+    }
+    .pagination_stap{
+        @extend .pagination_button;
+        width: 150px;
+        margin: 10px auto;
+    }   
+}
